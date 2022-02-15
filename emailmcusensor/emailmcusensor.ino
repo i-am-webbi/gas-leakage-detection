@@ -1,11 +1,11 @@
 #include <ESP8266WiFi.h>
-const char *ssid =  "webbi";     
-const char *pass =  "Kimson006";
+const char *ssid =  "Your wifi SSID name";     
+const char *pass =  "Your wifi password";
 const int sensorPin= A0;
 int lpg;
 void send_event(const char *event);
 const char *host = "maker.ifttt.com";
-const char *privateKey = "grWdafoqpqv7Fdsnihs_H8QfUPDaI9DwBeR1uuNwfhm";
+const char *privateKey = "Private key generated from the ifttt";
 WiFiClient client;
 void setup() 
 {
